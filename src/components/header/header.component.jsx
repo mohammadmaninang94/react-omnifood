@@ -10,7 +10,7 @@ const Header = () => {
         <header>
             <nav>
                 <div className='row'>
-                    <img src={require('../../resources/img/logo-white.png')}
+                    <img src='/img/logo-white.png'
                         alt='Omnifood Logo' className='logo' />
                     <ul className='main-nav'>
                         <li><CustomLink href='#'>Food delivery</CustomLink></li>
