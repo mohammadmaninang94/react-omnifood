@@ -3,7 +3,7 @@ import React from 'react';
 import './meals-showcase.styles.css';
 
 const MealsShowcase = ({ items }) => (
-    <ul className='meals-showcase' >
+    <ul className='meals-showcase clearfix' >
         {items.map(({ id, name, imgSrc }) => (
             <li key={id}>
                 <figure className='meal-photo'>

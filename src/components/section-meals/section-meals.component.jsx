@@ -1,6 +1,6 @@
 import React from 'react';
 
-import favoriteMeals from './favoriteMeals';
+import favoriteMeals from './favorite-meals';
 
 import MealsShowcase from './meals-showcase.component';
 
