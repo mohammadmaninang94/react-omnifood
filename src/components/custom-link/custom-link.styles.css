@@ -1,3 +1,4 @@
+/* ---- BUTTONS ---- */
 /* both will look desame after visited */
 .btn:link,
 .btn:visited {
@@ -37,4 +38,32 @@
 .btn-ghost:active {
   border: 1px solid #cf6d17;
   color: #fff;
+}
+
+/* ---- LINKS ---- */
+a:link,
+a:visited {
+  color: #e67e22;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #e67e22;
+  transition: border-bottom 0.3s, color 0.3s;
+}
+
+a:hover,
+a:active {
+  color: #555;
+  border-bottom: 1px solid transparent;
+}
+
+/* ---- SECTION-STEPS ---- */
+.btn-app:link,
+.btn-app:visited {
+  border: 0;
+}
+
+.btn-app img {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
 }

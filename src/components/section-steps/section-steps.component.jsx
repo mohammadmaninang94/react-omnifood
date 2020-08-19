@@ -26,10 +26,10 @@ const SectionSteps = () => (
                     <div>3</div>
                     <p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
                 </div>
-                <CustomLink className='btn-app'>
+                <CustomLink href='#' className='btn-app'>
                     <img src='/img/download-app.svg' alt='App store button'/>
                 </CustomLink>
-                <CustomLink className='btn-app'>
+                <CustomLink href='#' className='btn-app'>
                     <img src='/img/download-app-android.png' alt='Play store button'/>
                 </CustomLink>
             </div>

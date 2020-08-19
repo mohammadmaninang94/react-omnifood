@@ -72,3 +72,43 @@ h2:after {
   margin: 0 auto;
   margin-top: 30px;
 }
+
+/* ---- PARAGRAPHS ---- */
+
+.long-copy {
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.box p {
+  font-size: 90%;
+  line-height: 145%;
+}
+
+/* ---- ICONS ---- */
+
+.icon-big {
+  font-size: 350%;
+  display: block;
+  color: #e67e22;
+  margin-bottom: 10px;
+}
+
+.icon-small {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  color: #e67e22;
+  font-size: 120%;
+  margin-right: 10px;
+
+  /* secrets to align text and icons */
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -5px;
+}
+
+.box {
+  padding: 1%;
+}

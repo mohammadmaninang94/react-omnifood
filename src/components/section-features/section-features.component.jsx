@@ -1,9 +1,8 @@
 import React from 'react';
 
-import '../../vendors/css/ionicons.min.css';
-import './features.styles.css';
+import './section-features.styles.css';
 
-const Features = () => (
+const SectionFeatures = () => (
     <section className='section-feature'>
         <div className='row'>
             <h2>Get food fast &mdash; not fast food</h2>
@@ -34,4 +33,4 @@ const Features = () => (
     </section>
 );
 
-export default Features;
+export default SectionFeatures;
