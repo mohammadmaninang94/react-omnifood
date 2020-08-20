@@ -11,7 +11,7 @@ const SectionTestimonials = () => (
         </div>
         <div className='row'>
             {testimonials.map(({ name, image, quote }) => (
-                <div key={name} className='col span-1-of-3'>
+                <div key={name} className={`col span-1-of-${testimonials.length}`}>
                     <blockquote>
                         {quote}
                         <cite><img src={image} alt={name} />{name}</cite>

@@ -13,7 +13,7 @@ const SectionCities = () => (
         </div>
         <div className='row'>
             {cities.map(({ city, image, features: { subscribers, chefs, twitter } }) => (
-                <div key={city} className='col span-1-of-4 box'>
+                <div key={city} className={`col span-1-of-${cities.length} box`}>
                     <img src={image} alt={city} />
                     <h3>{city}</h3>
                     <div className='city-feature'>

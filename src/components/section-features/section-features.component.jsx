@@ -12,7 +12,7 @@ const SectionFeatures = () => (
         </div>
         <div className='row'>
             {features.map(({ id, title, description, icon }) => (
-                <div key={id} className='col span-1-of-4 box'>
+                <div key={id} className={`col span-1-of-${features.length} box`}>
                     <i className={`${icon} icon-big`}></i>
                     <h3>{title}</h3>
                     <p>{description}</p>
