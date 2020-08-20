@@ -5,6 +5,7 @@ import SectionFeatures from './components/section-features/section-features.comp
 import SectionMeals from './components/section-meals/section-meals.component';
 import SectionSteps from './components/section-steps/section-steps.component';
 import SectionCities from './components/section-cities/section-cities.component';
+import SectionTestimonials from './components/section-testimonials/section-testimonials.component';
 
 import './vendors/css/ionicons.min.css';
 
@@ -16,6 +17,7 @@ function App() {
       <SectionMeals />
       <SectionSteps />
       <SectionCities />
+      <SectionTestimonials />
     </React.Fragment>
   );
 }

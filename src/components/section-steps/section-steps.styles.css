@@ -1,5 +1,5 @@
-.section-steps{
-    background-color: #f4f4f4;
+.section-steps {
+  background-color: #f4f4f4;
 }
 
 .steps-box:first-child {
@@ -22,7 +22,7 @@
 }
 
 .works-step:last-of-type {
-    margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 .works-step div {
