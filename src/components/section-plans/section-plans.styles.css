@@ -4,7 +4,7 @@
 
 .section-plans .plan-box {
   background-color: #fff;
-  border-radius: 5px;
+  border-radius: 10px;
   width: 90%;
   margin-left: 5%;
   box-shadow: 0 2px 2px #cccccc;
@@ -17,8 +17,8 @@
 
 .section-plans .plan-box div:first-child {
     background-color: #fcfcfc;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .section-plans .plan-box div:last-child {

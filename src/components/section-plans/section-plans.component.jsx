@@ -1,6 +1,6 @@
 import React from 'react';
 
-import CustomLink from '../../components/custom-link/custom-link.component';
+import CustomLink from '../custom-button/custom-button.component';
 
 import plans from './plans';
 

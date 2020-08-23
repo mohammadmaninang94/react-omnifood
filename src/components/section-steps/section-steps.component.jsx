@@ -1,6 +1,6 @@
 import React from 'react';
 
-import CustomLink from '../custom-link/custom-link.component';
+import CustomLink from '../custom-button/custom-button.component';
 
 import steps from './steps';
 

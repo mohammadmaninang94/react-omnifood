@@ -1,0 +1,26 @@
+.contact-form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.contact-form input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.contact-form #message {
+  height: 100px;
+}
+
+.contact-form input[type=checkbox]{
+  margin: 10px 5px 10px 0;
+}
+
+.contact-form *:focus {
+  outline: none;
+}
