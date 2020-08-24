@@ -46,7 +46,7 @@ button.btn-full:active {
   color: #fff;
 }
 
-button {
+button, a {
   cursor: pointer;
 }
 

@@ -1,0 +1,73 @@
+footer {
+  background-color: #333;
+  padding: 40px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+footer .footer-nav {
+  float: left;
+}
+
+footer .social-links {
+  float: right;
+}
+
+footer .social-links i {
+  transition: color 0.3s;
+}
+
+footer .social-links li a:link,
+footer .social-links li a:visited {
+  font-size: 160%;
+}
+
+footer .ion-social-facebook:hover,
+footer .ion-social-facebook:active {
+  color: #3b5998;
+}
+
+footer .ion-social-twitter:hover,
+footer .ion-social-twitter:active {
+  color: #55acee;
+}
+
+footer .ion-social-googleplus:hover,
+footer .ion-social-googleplus:active {
+  color: #dd4b39;
+}
+
+footer .ion-social-instagram:hover,
+footer .ion-social-instagram:active {
+  color: #4c68d7;
+}
+
+footer .social-links li:last-child {
+  margin-right: 0;
+}
+
+footer li a:link,
+footer li a:visited {
+  text-decoration: none;
+  border: none;
+  color: #888;
+}
+
+footer li a:hover,
+footer li a:active {
+  color: #ddd;
+}
+
+footer .row p {
+  color: #888;
+  font-size: 90%;
+  text-align: center;
+  margin-top: 20px;
+}
