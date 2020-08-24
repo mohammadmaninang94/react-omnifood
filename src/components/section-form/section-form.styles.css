@@ -17,10 +17,22 @@ textarea {
   height: 100px;
 }
 
-.contact-form input[type=checkbox]{
+.contact-form input[type="checkbox"] {
   margin: 10px 5px 10px 0;
 }
 
 .contact-form *:focus {
   outline: none;
+}
+
+@media only screen and (max-width: 1023px) {
+  .contact-form {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .contact-form {
+    width: 100%;
+  }
 }

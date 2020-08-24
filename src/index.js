@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-import './vendors/css/grid.css';
 import 'normalize.css';
 
 ReactDOM.render(

@@ -37,3 +37,56 @@
   font-size: 150%;
   margin-right: 25px;
 }
+
+@media only screen and (max-width: 1023px) {
+  .steps-box {
+    margin-top: 10px;
+  }
+
+  .steps-box:first-child {
+    margin-top: 10px;
+  }
+
+  .steps-box:last-child {
+    margin-top: 10px;
+  }
+
+  .works-step {
+    margin-bottom: 40px;
+  }
+
+  .works-step:last-of-type {
+    margin-bottom: 60px;
+  }
+
+  .app-screen {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .works-step {
+    margin-bottom: 20px;
+  }
+
+  .works-step:last-of-type {
+    margin-bottom: 20px;
+  }
+
+  .works-step div {
+    height: 40px;
+    width: 40px;
+    padding: 4px;
+    margin-right: 15px;
+    font-size: 120%;
+  }
+
+  .steps-box:first-child {
+    text-align: center;
+  }
+
+  .app-screen {
+    width: 40%;
+  }
+}
+

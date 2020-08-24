@@ -16,9 +16,9 @@
 }
 
 .section-plans .plan-box div:first-child {
-    background-color: #fcfcfc;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+  background-color: #fcfcfc;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .section-plans .plan-box div:last-child {
@@ -48,4 +48,19 @@
 
 .section-plans .plan-box ul li {
   padding: 5px 0;
+}
+
+@media only screen and (max-width: 1023px) {
+  .city-feature {
+    font-size: 90%;
+  }
+
+  .section-plans .plan-box {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .section-plans .plan-price {
+    font-size: 250%;
+  }
 }
