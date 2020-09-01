@@ -1,0 +1,76 @@
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+  }
+  
+  .main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+  }
+  
+  .main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+  }
+  
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s;
+  }
+  
+  .main-nav li a:hover,
+  .main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px #efefef;
+    animation: moveDown 0.3s ease-in-out;
+  }
+  
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited {
+    padding: 15px 0;
+    color: #555;
+  }
+  
+  .sticky .main-nav {
+    margin-top: 15px;
+  }
+  
+  .logo-black {
+    height: 50px;
+    width: auto;
+    float: left;
+    margin: 5px 0;
+  }
+  
+  @keyframes moveDown {
+    from {
+      transform: translateY(-5rem);
+    }
+    to {
+      transform: translateY(0rem);
+    }
+  }
+  
+  /* small phones to small tablets: from 481px to 767px */
+  @media only screen and (max-width: 767px) {
+    .main-nav {
+      display: none;
+    }
+  }
